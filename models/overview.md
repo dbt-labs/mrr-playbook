@@ -21,7 +21,7 @@ find that you have to update some SQL to be compatible with your warehouse.
 
 -----
 1. We decided to _not_ make the SQL multi-warehouse compatible since this project
-is intended to be a demonstration, rather than a package. Making the dbt_project
+is intended to be a demonstration, rather than a package. Making this project
 multi-warehouse compatible would complicate the SQL.
 
 {% enddocs %}
