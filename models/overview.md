@@ -1,7 +1,7 @@
 {% docs __overview__ %}
 # Monthly Recurring Revenue (MRR) playbook.
 This dbt project is a worked example to demonstrate how to model subscription
-reveue. Check out the full write-up [here](blog.getdbt.com/modeling-subscription-revenue/).
+reveue. **Check out the full write-up [here](https://blog.getdbt.com/modeling-subscription-revenue/).**
 
 Note that this project is not a package -- it is not intended to be installed in
 your own dbt project, but instead provides a good starting point for building
