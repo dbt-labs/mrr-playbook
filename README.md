@@ -1,6 +1,6 @@
 # Monthly Recurring Revenue (MRR) playbook.
 This dbt project is a worked example to demonstrate how to model subscription
-reveue. **Check out the full write-up [here](https://blog.getdbt.com/modeling-subscription-revenue/),
+revenue. **Check out the full write-up [here](https://blog.getdbt.com/modeling-subscription-revenue/),
 as well as the documentation site for this project [here](https://www.getdbt.com/mrr-playbook/#!/overview).**
 
 Note that this project is not a package -- it is not intended to be installed in
@@ -14,10 +14,11 @@ dbt installed):
 1. Clone this repo.
 2. Create a profile named `playbook`, or update the `profile:` key in the
 `dbt_project.yml` file to point to an existing profile ([docs](https://docs.getdbt.com/docs/configure-your-profile)).
-2. Run `dbt seed`.
-3. Run `dbt run` -- if you are using a warehouse other than Snowflake, you may
+3. Run `dbt deps`.
+4. Run `dbt seed`.
+5. Run `dbt run` -- if you are using a warehouse other than Snowflake, you may
 find that you have to update some SQL to be compatible with your warehouse.
-4. Run `dbt test`.
+6. Run `dbt test`.
 
 -----
 1. We decided to _not_ make the SQL multi-warehouse compatible since this project
