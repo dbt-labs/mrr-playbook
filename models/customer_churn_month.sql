@@ -20,6 +20,7 @@ joined as (
     from mrr
 
     where is_last_month
+    and date_trunc(date_month, MONTH) != date_trunc(DATE_SUB(current_date(), INTERVAL 1 MONTH), MONTH)
 
 )
 
